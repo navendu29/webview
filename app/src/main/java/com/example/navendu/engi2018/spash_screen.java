@@ -50,7 +50,7 @@ public class spash_screen extends AppCompatActivity {
             v.start();
 
 
-        
+
 //        catch(Exception e){
 //
 //            jump();
