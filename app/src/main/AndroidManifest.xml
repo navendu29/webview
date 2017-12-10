@@ -14,16 +14,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".spash_screen">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".spash_screen" />
+        <activity android:name=".recycle"></activity>
+        <activity android:name=".webViewUpdate">
 
         </activity>
-        <activity android:name=".recycle">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".developed">
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
